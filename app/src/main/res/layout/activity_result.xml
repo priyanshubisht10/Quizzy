@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.resultActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/download"
+            android:layout_marginTop="150dp">
+
+        </ImageView>
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+            android:gravity="center_vertical|center_horizontal"
+
+
+        android:textSize="25sp"
+
+        android:text="FINAL RESULT"
+            android:textStyle="bold"
+        android:textColor="@color/black">
+
+    </TextView>
+
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="20dp"
+            android:textStyle="italic"
+            android:text="to be continued..."
+            android:gravity="center"
+            android:textSize="25sp"
+            >
+
+        </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/home"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        android:text="Go Back to the Login Page"
+
+        ></Button>
+
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
